@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新增订单",
+  "usingComponents": {
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action"
+  }
+}

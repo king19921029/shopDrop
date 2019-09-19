@@ -1,0 +1,86 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "home"
+			}
+		},
+		{
+		    "path" : "pages/makingOrder/makingOrder",
+		    "style": {
+		    	"navigationBarTitleText": "制单"
+		    }
+		},
+		{
+		    "path" : "pages/orderConfirm/orderConfirm",
+		    "style": {
+		    	"navigationBarTitleText": "订单确认"
+		    }
+		},
+		{
+		    "path" : "pages/addOrder/addOrder",
+		    "style": {
+		    	"navigationBarTitleText": "新增订单"
+		    }
+		},
+		{
+		    "path" : "pages/orderDetails/orderDetails",
+		    "style" : {}
+		},
+		
+		{
+		    "path" : "pages/returnGoods/returnGoods",
+		    "style": {
+		    	"navigationBarTitleText": "退货"
+		    }
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style": {
+		    	"navigationBarTitleText": "login"
+		    }
+		},
+		
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "mine"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "order"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FF6666"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#FF3366",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"iconPath": "/static/home.png",
+			"selectedIconPath": "/static/home_selected.png",
+			"pagePath": "pages/index/index",
+			"text": "home"
+		}, {
+			"iconPath": "/static/dz.png",
+			"selectedIconPath": "/static/dz_selected.png",
+			"pagePath": "pages/order/order",
+			"text": "order"
+		}, {
+			"iconPath": "/static/mine.png",
+			"selectedIconPath": "/static/mine_selected.png",
+			"pagePath": "pages/mine/mine",
+			"text": "mine"
+		}]
+	}
+}

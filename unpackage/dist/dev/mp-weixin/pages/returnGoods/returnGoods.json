@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "退货",
+  "usingComponents": {
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action"
+  }
+}

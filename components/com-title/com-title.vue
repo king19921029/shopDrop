@@ -1,0 +1,27 @@
+<template>
+	<view class="headers display_flex">
+		<view class="com_width display_flex bg_fff space_between">
+			<view class="display_flex">
+				<icon size="14" type="search"></icon>
+				<input type="text" placeholder="当前页搜索还是新页面搜">
+			</view>
+			<image class="scode" src="/static/scode.png" mode=""></image>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		name: "com-title",
+		props: {
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+	
+</style>

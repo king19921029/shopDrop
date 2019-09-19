@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/order/order"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FF6666"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF3366",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "/static/home.png",
+        "selectedIconPath": "/static/home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "home"
+      },
+      {
+        "iconPath": "/static/dz.png",
+        "selectedIconPath": "/static/dz_selected.png",
+        "pagePath": "pages/order/order",
+        "text": "order"
+      },
+      {
+        "iconPath": "/static/mine.png",
+        "selectedIconPath": "/static/mine_selected.png",
+        "pagePath": "pages/mine/mine",
+        "text": "mine"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "shopDrop",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}
